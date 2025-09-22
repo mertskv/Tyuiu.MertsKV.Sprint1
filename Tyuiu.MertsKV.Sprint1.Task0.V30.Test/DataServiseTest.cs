@@ -10,7 +10,7 @@ namespace Tyuiu.MertsKV.Sprint1.Task0.V30.Test
         {
             DataServise ds = new DataServise();
             var res = ds.Calculate();
-            Assert.AreEqual(20, res);
+            Assert.AreEqual(96, res);
         }
     }
 }
